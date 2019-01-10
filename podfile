@@ -1,0 +1,8 @@
+platform :ios ,'9.0'
+
+target'podTest'do
+project 'podTest/podTest.xcodeproj'
+pod'AFNetworking'
+#pod 'ModuleA', :git => 'https://gitee.com/th_1579589762/ModuleA.git'
+pod 'TimeConvertString', :git => 'https://github.com/garykel/TimeConvertString.git'
+end

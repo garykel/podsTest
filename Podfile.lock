@@ -1,0 +1,42 @@
+PODS:
+  - AFNetworking (3.2.1):
+    - AFNetworking/NSURLSession (= 3.2.1)
+    - AFNetworking/Reachability (= 3.2.1)
+    - AFNetworking/Security (= 3.2.1)
+    - AFNetworking/Serialization (= 3.2.1)
+    - AFNetworking/UIKit (= 3.2.1)
+  - AFNetworking/NSURLSession (3.2.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.2.1)
+  - AFNetworking/Security (3.2.1)
+  - AFNetworking/Serialization (3.2.1)
+  - AFNetworking/UIKit (3.2.1):
+    - AFNetworking/NSURLSession
+  - TimeConvertString (0.0.1)
+
+DEPENDENCIES:
+  - AFNetworking
+  - TimeConvertString (from `https://github.com/garykel/TimeConvertString.git`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - AFNetworking
+
+EXTERNAL SOURCES:
+  TimeConvertString:
+    :git: https://github.com/garykel/TimeConvertString.git
+
+CHECKOUT OPTIONS:
+  TimeConvertString:
+    :commit: 85f5a44d8e2a4fc59fc126a5e222226a502b2d5d
+    :git: https://github.com/garykel/TimeConvertString.git
+
+SPEC CHECKSUMS:
+  AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
+  TimeConvertString: a1374feceb14fa0eb8a237d171b1f39c894fec9c
+
+PODFILE CHECKSUM: 8b0652d3032331373d34d9fb8cab5ed45245d70e
+
+COCOAPODS: 1.5.3

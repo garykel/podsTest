@@ -1,0 +1,25 @@
+{
+  "name": "TimeConvertString",
+  "version": "0.0.1",
+  "summary": "A short description of TimeConvertString.",
+  "description": "时间格式转换字符串",
+  "homepage": "http://www.baidu.com",
+  "license": "MIT",
+  "authors": {
+    "garykel": "gary.chen.kel@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/garykel/TimeConvertString/TimeConvertString.git",
+    "tag": "0.0.1"
+  },
+  "source_files": [
+    "Category",
+    "Category/**/*.{h,m}"
+  ],
+  "platforms": {
+    "osx": null,
+    "ios": null,
+    "tvos": null,
+    "watchos": null
+  }
+}
